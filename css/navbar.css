@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap");
+.textfont {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.nav_body {
+  background: rgb(179, 217, 255);
+  height: 65px;
+}
+.kice_logo {
+  width: 40px;
+}
+.text_toptic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+}
+.btn_cart {
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 20px 20px 20px;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  font-family: "Bai Jamjuree", sans-serif;
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+.btn_cart:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+}
+.name_user{
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 0px 0px 0px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    font-family: "Bai Jamjuree", sans-serif;
+    cursor: pointer;
+}
+.name_user a{
+    color: black;
+    padding: 0px 20px 0px 20px;
+    transition: all 0.3s ease 0s;
+
+}
+.name_user a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: all 0.3s ease 0s;
+   
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

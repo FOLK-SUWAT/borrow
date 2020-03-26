@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+    font-family: 'Muli', sans-serif;
+}
+.bgcolor{
+    background: black;
+}
+.logo{
+    margin-top: 1%;
+}
+
+
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #BEBEBE;
+}
+a:active {
+    color: #FFFFFF;
+}
+.textheader{
+    margin-top: 50%;
+}
+.brand{
+    margin-top: 50%;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+.brand-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 12px 16px;
+}
+.brand-content a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.brand-content a:hover {
+    color: #BEBEBE;
+}
+.brand:hover .brand-content {
+    display: block;
+}
+.iconbasket{
+    margin-top: 20%;
+}
+
+/*______________________________________________________________*/
+/*ปุ่มสมัคร - ปุ่มเปลี่ยนภาษา*/
+.textlog{
+    color: #FFFFFF;
+    margin-top: 12%;
+    margin-left: 20%;
+}
+.iconth{
+    width: 40%;
+}
+.dropth{
+    margin-top: 50%;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.dropdownth{
+    color: #FFFFFF;
+    margin-top: 50%;  
+    position: relative;
+    display: inline-block;
+}
+.dropdownth-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.dropdownth-content a {
+    color: #FFFFFF;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+}
+.dropdownth-content a:hover{
+    background-color: black;
+    color: #BEBEBE;
+}
+.dropdownth:hover .dropdownth-content{
+    display: block;
+}
+.icondrop{
+    width:40%;
+}
+/*______________________________________________________________*/
+/*รูปสินค้าที่ 1 แถวที่ 1*/
+.showpic1{
+    position: relative;
+    width: 100%;
+    margin-top: 1%;
+}
+.image1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.showpic1:hover .image1 {
+    opacity: 0.3;
+}
+.showpic1:hover .middle1 {
+    opacity: 1;
+}
+.textpic1 {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+/*______________________________________________________________*/
+/*รูปสินค้าที่ 2 แถวที่ 1*/
+.showpic2{
+    position: relative;
+    width: 100%;
+    margin-top: 2.5%;
+    
+}
+.image2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.showpic2:hover .image2 {
+    opacity: 0.3;
+}
+.showpic2:hover .middle2 {
+    opacity: 1;
+} 
+.textpic2 {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+/*______________________________________________________________*/
+/*รูปสินค้าที่ 1 แถวที่ 3*/
+.showpic1r3{
+    position: relative;
+    width: 100%;
+    margin-top: 4%;
+}
+.image1r3 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle1r3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47%, -50%);
+    -ms-transform: translate(-47%, -50%);
+    width: 170px;
+    
+    
+}
+.showpic1r3:hover .image1r3 {
+    opacity: 0.3;
+}
+.showpic1r3:hover .middle1r3 {
+    opacity: 1;
+}
+.textpic1r3 {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 20px;
+    
+}
+/*______________________________________________________________*/
+/*รูปสินค้าที่ 2 แถวที่ 3*/
+.showpic2r3{
+    position: relative;
+    width: 100%;
+    margin-top: 4%;
+}
+.image2r3 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle2r3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 170px;
+    
+}
+.showpic2r3:hover .image2r3 {
+    opacity: 0.3;
+}
+.showpic2r3:hover .middle2r3 {
+    opacity: 1;
+}
+.textpic2r3 {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 20px;
+}
+/*______________________________________________________________*/
+/*รูปสินค้าที่ 3 แถวที่ 3*/
+.showpic3r3{
+    position: relative;
+    width: 100%;
+    margin-top: 4%;
+}
+.image3r3 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle3r3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 170px;
+    
+}
+.showpic3r3:hover .image3r3 {
+    opacity: 0.3;
+}
+.showpic3r3:hover .middle3r3 {
+    opacity: 1;
+}
+.textpic3r3{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    padding-left: 15px;
+}
+/*______________________________________________________________*/
+/*รูปสินค้าที่ 3 แถวที่ 3*/
+.showpic4r3{
+    position: relative;
+    width: 100%;
+    margin-top: 4%;
+}
+.image4r3 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle4r3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 170px;
+    
+}
+.showpic4r3:hover .image4r3 {
+    opacity: 0.3;
+}
+.showpic4r3:hover .middle4r3 {
+    opacity: 1;
+}
+.textpic4r3 {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 20px;
+}
+/*______________________________________________________________*/
+/*รูปสินค้าที่ 3 แถวที่ 3*/
+.showpic4r4{
+    margin-top: 1%;
+    /*opacity: 0.3;*/
+}
+
+/*______________________________________________________________*/
+/*Background Product*/
+.bgproduct{
+    background-color: #FFFFFF;  
+}
+/*______________________________________________________________*/
+/*Button register*/
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button-register {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 16px 32px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+}
+.button-register:hover {
+    background-color: #008CBA;
+    color: white;
+    border-radius: 8px;
+}
+/*______________________________________________________________*/
+/*Button login*/
+.button-login {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 25px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FF9933	;
+    border-radius: 8px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+.button-login:hover {
+    border: 2px solid #FF9933;
+    background-color: #FF9933;
+    color: white;
+}
+.button-test {
+    font-size: 16px;
+    padding: 9px 25px;
+    background-color: black; 
+    color: white; 
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
+.button-test:hover {
+    border: 2px solid black;
+    background-color: white;
+    
+    color: black;
+}
+/*______________________________________________________________*/
+/*Contact*/
+.textContact {
+    text-decoration: underline;
+    color: #FFFFFF;
+    margin-top: 15%;
+    margin-left: 50%;
+}
+.detailContact{
+    padding-top: 15px;
+    margin-left: 50%;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 10%;
+}
+.textfollow{
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin-left: 14%;
+    margin-top: 15%;
+}
+.detailfollow{
+    padding-top: 15px;
+    margin-left: 15%;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.logobottom{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    opacity: 0.3;
+}
+/*______________________________________________________________*/
+/*รูป Section 4*/
+.showpics4{
+    position: relative;
+    width: 100%;
+    margin-top: 1%;
+}
+.images4 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middles4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 300px;
+}
+.showpics4:hover .images4 {
+    opacity: 0.3;
+}
+.showpics4:hover .middles4 {
+    opacity: 1;
+}
+.textpics4 {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    padding-left: 50px;
+}
+/*______________________________________________________________*/
+/*กรอบโชว์สินค้า*/
+.gallery {
+    margin: 2px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 160px;
+    height: 290px;
+}  
+.gallery:hover {
+    border: 1px solid #777;
+} 
+.gallery img {
+    width: 100%;
+    height: auto;
+}  
+.desc {
+    padding: 1px;
+    text-align: center;
+}
+.button-shopping {
+    font-size: 16px;
+    padding: 9px 25px;
+    background-color: black; 
+    color: white; 
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
+.button-shopping:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+/*______________________________________________________________*/
+/*หน้า NEW*/
+.textnew {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+   
+    text-decoration: underline;
+    text-shadow: 3px 2px #777;
+}
+/*______________________________________________________________*/
+/*Show Data*/
+.bgshowdata{
+    background-color: black;
+    
+}
+.textshowdata{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.button-showdata{
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+    padding: 10px 105px 10px 105px;
+    border-radius: 8px;
+}
+.button-showdata:hover {
+    background-color: white;
+    color: #555555;
+}
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+/*______________________________________________________________*/
+/*Add product*/
+.button-savedata{
+    background-color: #F5F5F5;
+    color: black;
+    padding: 7px 30px 7px 30px;
+    border-radius: 8px;
+}
+.button-savedata:hover {
+    background-color: #00CC33;
+    color: white;
+}
+.button-cenceldata{
+    background-color: #F5F5F5;
+    color: black;
+    padding: 7px 25px 7px 25px;
+    border-radius: 8px;
+}
+.button-cenceldata:hover {
+    background-color: #B22222;
+    color: white;
+}
+.button-cart{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+}
+.button-editadmin{
+    background-color: #F5F5F5;
+    color: black;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+}
+.button-editadmin:hover {
+    background-color: black;
+    color: white;
+
+}
+.textcart{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.bgorder{
+    color: #FFFFFF;
+}
+.textorder{
+    font-size: 30px;
+    color:white;
+}

@@ -1,0 +1,66 @@
+@media only screen and (min-width: 1008px) {
+  @import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap");
+  .textfont {
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  .menu_body {
+    background: rgb(255, 255, 255);
+    height: 50px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+  }
+  .menu_page {
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    font-family: "Bai Jamjuree", sans-serif;
+    cursor: pointer;
+  }
+  .menu_page a {
+    color: black;
+    padding: 0px 20px 0px 20px;
+    transition: all 0.3s ease 0s;
+  }
+  .menu_page a:hover {
+    color: rgb(0, 119, 167);
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media only screen and (max-width: 1007px) {
+  @import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap");
+  .textfont {
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  .menu_body {
+    background: rgb(255, 255, 255);
+    height: 50px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+  }
+  .menu_page {
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    font-family: "Bai Jamjuree", sans-serif;
+    cursor: pointer;
+  }
+  .menu_page a {
+    font-size: 14px;
+    color: black;
+    padding: 0px 20px 0px 20px;
+    transition: all 0.3s ease 0s;
+  }
+  .menu_page a:hover {
+    font-size: 14px;
+    color: rgb(0, 119, 167);
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: all 0.3s ease 0s;
+  }
+}

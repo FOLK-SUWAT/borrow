@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+.headerbg{
+ background : url('../img/headerbg.jpg');
+
+ color: #ffffff;
+padding:20px;
+
+}
+
+.Logo {
+ width:40%;
+ margin-top:20%
+}
+.badgeappstore:hover{
+   opacity :0.5;
+}
+.badgeappstore{
+ widows: 40%;
+ margin-top: 8%;
+}
+.mainscreen{
+    width:60%;
+}
+.section1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #161616;
+}
+.screen1{
+    width:70%;
+}
+.textsection1{
+    margin-top: 20%;
+}
+.section2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#161616;
+}
+.screen2{
+    width: 70%;
+}
+.textsection2{
+    margin-top: 30%;
+}
+.supportdiv{
+    background-image: url("../img/supportbg.jpg");
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.supportdiv button{
+    background: #ffffff;
+    color: #fc3232;
+    height: 60px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 80px 80px 80px 80px;
+    -moz-border-radius: 80px 80px 80px 80px; /* รองรับ FireFox*/
+    -webkit-border-radius: 80px 80px 80px 80px; /* รองรับ Safary*/
+    border: none;
+    margin-top: 5%;
+}
+.supportdiv button:hover{
+    background: #fc3232;
+    color: #ffffff;
+}
+.footer{
+    background: #181818;
+    padding: 40px;
+}
+.logofooter{
+    width: 70%;
+}
+
+/*media query's adjustmetnt*/
+@media screen and(max-width:460px){
+    .Logo{
+        display: none;
+        width: 80%;
+    }
+    .badgeappstore{
+        width: 80%;
+    }
+    .footer{
+        background: #181818;
+        padding: 40px;
+    }
+    .logofooter{
+        width: 70;
+    }
+
+    /*media query's adjustment*/
+    @media screen and(max-width:460px){
+        .Logo{
+            width: 80%;
+        }
+        .badgeappstore{
+            width: 80%;
+        }
+    }
+}
