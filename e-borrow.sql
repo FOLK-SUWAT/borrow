@@ -628,23 +628,23 @@ CREATE TABLE `mem_type` (
 
 INSERT INTO `mem_type` (`mem_id`, `mem_type_department`, `line_token`) VALUES
 (1, 'ไอที', ''),
-(2, 'สโตร์', 'I2DUv7Y1FkNaGNAgvmSpaadptKqsBHx4kvw7y4ga5jW'),
-(3, 'บุคคล', 'XoowBNWcKFGR1DnL9H9UQoI8dWFvvwOT1IvvDrBRNnh'),
-(4, 'จัดซื้อ', 'GaNALKs8gXQhBJpxD7Z2zQb8LvaRm38AXDWKZTeAtUB'),
-(5, 'ขาย', 'OfCvpITh26tAoIyj9GldfV6am4NLv7KfQMNAJkOdchF'),
-(6, 'บัญชี', 'DRHVj9MkKigFtZaip0Htr8SSDhbhVUVQt5nPEGrb79g'),
-(7, 'วิศวกรรม', 'RUCOgGaXa0DAVAdMqMAs8KeqNALgOjJH1hxhJK690y8'),
-(8, 'หน่วยเทคนิคแสงและเสียง', '0kQFhHmfrZtOggsAH9XLZQhwzp4VBm2fNNGdU83D7wK'),
-(9, 'จัดเลี้ยง', 'gUhs5NeXNgQacOTLn76zBxKeybuJoAL2W2kuJHyc9cT'),
-(10, 'ครัว', 'avUWXy1dTzxf9QLoPh4EJNmAZdpJMMs2OaLB2btYF9o'),
-(11, 'ศูนย์อาหาร', 'x9IM7HCvpdchr03JPQFttM6WzJWtJnvblkcHKeNxBDf'),
-(12, 'กราฟฟิค', 'gs2tX1edJRqxHB5uhcZQ1k2U4ig0XZDKwquQcVlcgWW'),
-(13, 'ลูกค้าสัมพันธ์', '9kZfCyJGZb9DUCD7vD2h1GKtxz7fRDORBFiZlYrRiGA'),
-(14, 'ผู้จัดการ', 'Q2ty3XDNjWKqslHwvWjqZKcZYXAqftUeUhVZaZMELzs'),
-(15, 'หน่วยความปลอดภัยอาชีวอนามัยฯ', 'kaRLNLXZ3aFqguH07z8eIY7XLIdTuFaRhfTMfwx1r9A'),
-(16, 'หน่วยรักษาความสะอาด', 'glfA2EUJXoNjep1xi3bwvntmgxbLPS5jziPFJd2CfUZ'),
-(17, 'หน่วยรักษาความปลอดภัย', 'jd0eQ5Dc88lvf5Rl5IOWNprx0WDS9TfsjMkjXgbjed4'),
-(19, 'เลขานุการ', 'rVPEZTArAyG00muN98L0rBKJ9q44sStCrzuSul8HpDw');
+(2, 'สโตร์', ''),
+(3, 'บุคคล', ''),
+(4, 'จัดซื้อ', ''),
+(5, 'ขาย', ''),
+(6, 'บัญชี', ''),
+(7, 'วิศวกรรม', ''),
+(8, 'หน่วยเทคนิคแสงและเสียง', ''),
+(9, 'จัดเลี้ยง', ''),
+(10, 'ครัว', ''),
+(11, 'ศูนย์อาหาร', ''),
+(12, 'กราฟฟิค', ''),
+(13, 'ลูกค้าสัมพันธ์', ''),
+(14, 'ผู้จัดการ', ''),
+(15, 'หน่วยความปลอดภัยอาชีวอนามัยฯ', ''),
+(16, 'หน่วยรักษาความสะอาด', ''),
+(17, 'หน่วยรักษาความปลอดภัย', ''),
+(19, 'เลขานุการ', '');
 
 -- --------------------------------------------------------
 
